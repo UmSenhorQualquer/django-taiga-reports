@@ -1,0 +1,15 @@
+body{
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #eee;
+}
+
+.dashboard-box{
+	float:left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+h1,h2{
+	clear: both;
+}
