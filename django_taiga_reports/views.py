@@ -41,7 +41,7 @@ def index(request):
 	api.auth(username=settings.USER, password=settings.PASS)
 
 	workload_imgs 	= []
-	last_moment 	= report.last_moment
+	last_moment 	= report.last_snapshot
 
 	for user_id in settings.TEAM:
 		user = api.users.get(user_id)
